@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="choose-level">
+    <div>Chose field size</div>
+    <input type="number" value="5" id="number" min="2" max="25"/>
+    <button type="submit" onclick="printPlayground()">Start</button>
+</div>
+<table id="playground" class="hidden"></table>
+<div id="congrats" class="hidden">
+    <div> You win! </div>
+    <button type="submit" onclick="start()">Start again</button>
+</div>
+
+<script src="./index.js"></script>
+</body>
+</html>

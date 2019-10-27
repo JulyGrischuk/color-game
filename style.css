@@ -1,0 +1,51 @@
+body {
+    align-items: center;
+    display: flex;
+    font-size: 28px;
+    justify-content: space-around;
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+}
+#choose-level {
+    text-align: center;
+}
+#choose-level div {
+    font-size: 36px;
+    font-weight: 600;
+}
+#choose-level input {
+    border-color: #000;
+    font-size: 20px;
+    padding: 0 5px;
+    margin: 20px auto;
+}
+button {
+    background: #000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 28px;
+    margin: auto;
+    width: 150px;
+}
+table {
+    border: 3px solid #000;
+    margin: auto;
+}
+td {
+    height: 20px;
+    width: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.black {
+    background-color: #000;
+}
+.white {
+    background-color: #ccc;
+}
